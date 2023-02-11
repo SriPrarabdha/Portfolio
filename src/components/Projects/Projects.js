@@ -6,7 +6,7 @@ import gif from "../../Assets/Projects/gif-search.png";
 import protein from "../../Assets/Projects/protein.png";
 import reddit from "../../Assets/Projects/reddit.png";
 import content from "../../Assets/Projects/contentGenerator.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import doctalk from "../../Assets/Projects/doctalk.png";
 import rickbot from "../../Assets/Projects/rickbot.jpg";
 
 function Projects() {
@@ -26,7 +26,7 @@ function Projects() {
               imgPath={content}
               isBlog={false}
               title="Content Generator"
-              description="Personalized GPT3 for creating content for all yo."
+              description="This project is a content generator that uses Next.js and Open AI API to generate viral content such as Twitter threads, LinkedIn posts, and YouTube video scripts. It is designed to give users the power to quickly create engaging, shareable content with minimal effort.."
               ghLink="https://github.com/SriPrarabdha/AI-Content-Generator"
               demoLink="https://ai-content-generator-six.vercel.app/"
             />
@@ -37,7 +37,7 @@ function Projects() {
               imgPath={rickbot}
               isBlog={false}
               title="RickBot"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="This project is a Discord Bot that talks like Rick from the popular sci-fi show Rick and Morty. To make this happen, I scraped transcripts from various fandom sites to collect data. I then fine tuned a Google's T5 Transformer Model and deployed this model on Hugging Face as an API. Finally, I deployed a Flask server that is our Discord Bot. It’s a fun way to interact with your favorite characters and have a conversation with them!."
               ghLink="https://github.com/SriPrarabdha/RickBot"
               demoLink="https://discord.com/api/oauth2/authorize?client_id=1056096258747547769&permissions=2048&scope=bot"
             />
@@ -48,7 +48,7 @@ function Projects() {
               imgPath={reddit}
               isBlog={false}
               title="Reddit Comment Scraper Package"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description="This is a Python package that allows users to scrape multi-level comment trees from Reddit. It employs a depth-first search algorithm to traverse the comment tree of a Reddit post and retrieves the comment tree in the form of a JSON file. This package is useful for analyzing the structure of Reddit comments, as well as gathering data for further analysis."
               ghLink="https://github.com/SriPrarabdha/reddit-scrapper-package"
               demoLink="https://pypi.org/project/reddit-comment-scrapper/"              
             />
@@ -59,7 +59,7 @@ function Projects() {
               imgPath={gif}
               isBlog={false}
               title="GIF Search"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="This project is a Streamlit webapp that uses Semantic Search to improve the ability of search engines. It utilizes Sentence Transformer to embed the input query into a vector space and this vector representation is stored in a Pinecone. With this, the application is able to return the most relevant sentences to the input query by finding the sentences that are closest to the vector embedding of the query. This project provides an efficient and accurate search experience, helping users quickly find the information they need."
               ghLink="https://github.com/SriPrarabdha/gif-search"
               // demoLink="https://plant49-ai.herokuapp.com/"
             />
@@ -67,10 +67,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={doctalk}
               isBlog={false}
               title="DOC Talk"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="ChatGPT Over Your Data : 
+              This project is a web application that allows users to upload documents and then ask questions related to the document. The application uses the power of language models to embed the document into a vector space, allowing it to generate questions and answers related to the document content. This makes it easier for users to quickly gain insights from the document and understand its contents."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
@@ -81,8 +82,7 @@ function Projects() {
               imgPath={protein}
               isBlog={false}
               title="Protein Structure Prediction App"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="TThis project is powered by Meta AI's latest Transformer model, ESMARTS, and enables users to upload a protein sequence to a Streamlit interface and then view and interact with the structure of that protein. Through this project, users can analyze the structure of their proteins and gain new insights into their properties. This project also provides a number of unique features, such as the ability to view the protein structure in different forms, as well as the ability to interact with and manipulate the protein structure. This project is ideal for scientists and researchers who are looking for an easy and efficient way to analyze their proteins."
               ghLink="https://github.com/SriPrarabdha/gif-search"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
