@@ -38,9 +38,15 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
+              And when I am not building products I like to read various research paper or <b className="purple">Work on My Research . </b> 
+              {/* <br /> */}
+              My Main Research Interests are 
+              <ul>
+                <li>Forward Forward Algorithm</li>
+                <li>Generative AI</li>
+                <li>MultiModal Diffusion Models</li>
+              </ul>
+              {/* <i>
                 <b className="purple">
                   {" "}
                   Modern Javascript Library and Frameworks
@@ -49,7 +55,7 @@ function Home2() {
               &nbsp; like
               <i>
                 <b className="purple"> React.js and Next.js</b>
-              </i>
+              </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
